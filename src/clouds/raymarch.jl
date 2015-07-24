@@ -10,7 +10,7 @@ texparams = [
     (GL_TEXTURE_MAG_FILTER, GL_LINEAR)
 ]
 
-data 	= merge(Dict(
+data = merge(Dict(
 	:iResolution => lift(Vec2, screen.inputs[:framebuffer_size]),
 	:iMouse 	 => dropwhen(lift(isempty, screen.inputs[:mousebuttonspressed]), Vec2(0), lift(Vec2, screen.inputs[:mouseposition])),
 	:iGlobalTime => bounce(0f0:0.016f0:2000f0),
