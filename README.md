@@ -35,6 +35,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
 	//Important: You need also to write to the alpha channel,which is not the case for shadertoy.com
 }
 ```
+The fun part is, that when you run `shadertoy` you can edit the shader code in any editor and the changes will be immediately visible.
 You can also add arbitrary textures and uniforms like this:
 ```Julia
 shadertoy("submerged.frag", Dict{Symbol, Any}(
