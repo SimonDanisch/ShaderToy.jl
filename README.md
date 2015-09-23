@@ -6,9 +6,6 @@ This is [ShaderToy](https://www.shadertoy.com/) recreated with [GLVisualize.jl](
 It's a nice playground to get started with OpenGL.
 
 
-Seems its fine if I just grab examples from ShaderToy, as long as their license permits it. If not, please notify me!
-Here are a few:
-
 [![](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/doc/clouds.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/clouds.frag)
 [![](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/doc/monster.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/monster.frag)
 [![](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/doc/seascape.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/seascape.frag)
