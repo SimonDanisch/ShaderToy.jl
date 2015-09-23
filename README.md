@@ -68,6 +68,7 @@ Pkg.clone("https://github.com/JuliaIO/FileIO.jl.git")
 Pkg.clone("https://github.com/JuliaIO/MeshIO.jl.git")
 Pkg.clone("https://github.com/JuliaGeometry/Packing.jl.git")
 Pkg.clone("https://github.com/JuliaIO/ImageMagick.jl.git")
+Pkg.clone("https://github.com/yurivish/SignedDistanceFields.jl.git")
 Pkg.build("ImageMagick")
 Pkg.clone("https://github.com/JuliaGL/GLVisualize.jl.git")
 Pkg.checkout("Images", "sd/fileio")
@@ -79,5 +80,7 @@ Pkg.checkout("GLWindow")
 Pkg.checkout("FreeType")
 Pkg.checkout("GLAbstraction")
 Pkg.clone("https://github.com/SimonDanisch/ShaderToy.jl.git")
+cd(Pkg.dir("Reactive"))
+run(`git checkout ba0cf58b6392987b94bfdb072dc6802da1534b7a`) #ultra hack... But no tagged version works, and Pkg can't check out commits
 ```
 
