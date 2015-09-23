@@ -6,13 +6,13 @@ This is [ShaderToy](https://www.shadertoy.com/) recreated with [GLVisualize.jl](
 
 
 Seems its fine if I just grab examples from ShaderToy, as long as their license permits it. If not, please notify me!
-Here a few:
+Here are a few:
 
-[![](docs/clouds.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/clouds.frag)
-[![](docs/monster.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/monster.frag)
-[![](docs/seascape.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/seascape.frag)
-[![](docs/raytracing.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/raytracing.frag)
-[![](docs/submerged.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/submerged.frag)
+[![](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/doc/clouds.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/clouds.frag)
+[![](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/doc/monster.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/monster.frag)
+[![](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/doc/seascape.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/seascape.frag)
+[![](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/doc/raytracing.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/raytracing.frag)
+[![](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/doc/submerged.gif?raw=true)](https://github.com/SimonDanisch/ShaderToy.jl/blob/master/examples/submerged.frag)
 
 
 # Usage
