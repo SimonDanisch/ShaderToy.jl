@@ -62,23 +62,11 @@ It's just more flexible as you can do whatever you want with GLVisualize, GLAbst
 just execute:
 
 ```Julia
-Pkg.clone("https://github.com/JuliaIO/FileIO.jl.git")
-Pkg.clone("https://github.com/JuliaIO/MeshIO.jl.git")
-Pkg.clone("https://github.com/JuliaGeometry/Packing.jl.git")
-Pkg.clone("https://github.com/JuliaIO/ImageMagick.jl.git")
-Pkg.clone("https://github.com/yurivish/SignedDistanceFields.jl.git")
-Pkg.build("ImageMagick")
-Pkg.clone("https://github.com/JuliaGL/GLVisualize.jl.git")
-Pkg.checkout("Images", "sd/fileio")
-Pkg.checkout("GeometryTypes")
-Pkg.checkout("FixedSizeArrays")
-Pkg.checkout("Meshes", "ntuples")
-Pkg.checkout("ModernGL")
-Pkg.checkout("GLWindow")
-Pkg.checkout("FreeType")
-Pkg.checkout("GLAbstraction")
-Pkg.clone("https://github.com/SimonDanisch/ShaderToy.jl.git")
-cd(Pkg.dir("Reactive"))
-run(`git checkout ba0cf58b6392987b94bfdb072dc6802da1534b7a`) #ultra hack... But no tagged version works, and Pkg can't check out commits
+Pkg.add("GLVisualize")
+Pkg.checkout("GLAbstraction", "sd/next²")
+Pkg.checkout("GLVisualize", "next2")
+Pkg.checkout("GLWindow", "sd/rebuild")
+Pkg.checkout("GeometryTypes", "sd/boundingbox")
+Pkg.checkout("FixedSizeArrays", "master")
 ```
 
