@@ -62,11 +62,6 @@ It's just more flexible as you can do whatever you want with GLVisualize, GLAbst
 just execute:
 
 ```Julia
-Pkg.add("GLVisualize")
-Pkg.checkout("GLAbstraction", "sd/next²")
-Pkg.checkout("GLVisualize", "next2")
-Pkg.checkout("GLWindow", "sd/rebuild")
-Pkg.checkout("GeometryTypes", "sd/boundingbox")
-Pkg.checkout("FixedSizeArrays", "master")
+Pkg.clone("https://github.com/SimonDanisch/ShaderToy.jl.git")
 ```
 
